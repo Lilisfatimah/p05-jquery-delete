@@ -1,0 +1,56 @@
+body {
+	background-color: #f0efeb ;
+	font-family: sans-serif;
+	margin-top: 100px;
+}
+.judul {
+	text-align: center;
+	color: black;
+}
+
+.tabel {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th,
+td {
+	border: 2px solid black;
+	text-align: center;
+	padding: 15px;
+}
+
+tr:nth-child(even) {
+	background-color: #e6e0d2;
+}
+
+th:hover {
+	background-color: #daeaf6;
+}
+
+td:hover {
+	background-color: #daeaf6;
+}
+
+.tabel-utama {
+	background-color: #b09171;
+	text-decoration: none;
+	color: black;
+}
+
+.Kembali-tablejquery {
+	margin-top: 40px;
+}
+
+.Kembali-tablejquery a {
+	border-color: #b09171;
+	font-size: 25px;
+	color: black;
+	padding: 5px 10px ;
+	text-decoration: none;
+	border-radius: 20px;
+}
+
+.Kembali-tablejquery a:hover {
+	background-color: #b09171;
+}
